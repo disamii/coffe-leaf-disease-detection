@@ -1,18 +1,18 @@
-backend/venv/
-backend/.venv/
-backend/env/
-# Backend - Python compiled files
-backend/__pycache__/
-backend/*.pyc
-backend/*.pyo
-backend/*.pyd
-# Backend - Environment files
-backend/.env
-backend/.env.local
+# Ignore virtual environments
+**/venv/
+**/.venv/
+**/env/
 
-# Backend - Logs and databases
-backend/*.log
-backend/*.sqlite
+# Ignore Python compiled files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Ignore environment files
+**/.env
+**/.env.local
+
 # Frontend - Node modules
 frontend/node_modules/
 
