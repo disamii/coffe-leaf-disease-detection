@@ -1,0 +1,100 @@
+/* .Apps {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #6F4E37;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+}
+
+.buttonSpace {
+  margin: 20px 0;
+}
+
+button {
+  background-color: #6F4E37;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #5C3F2E;
+}
+
+button:disabled {
+  background-color: #A08B7D;
+  cursor: not-allowed;
+}
+
+.inputsOnFileUpload {
+  background: #F5ECE1;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.trainingResults {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 30px;
+}
+.trainingResults div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.trainingResultGraph {
+  display: flex;
+  flex-direction: column;
+  background: #FAF3E6;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.trainingResultTable {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #6F4E37;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #6F4E37;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #F5ECE1;
+} */

@@ -1,0 +1,22 @@
+backend/venv/
+backend/.venv/
+backend/env/
+# Backend - Python compiled files
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+# Backend - Environment files
+backend/.env
+backend/.env.local
+
+# Backend - Logs and databases
+backend/*.log
+backend/*.sqlite
+# Frontend - Node modules
+frontend/node_modules/
+
+# Frontend - Build files
+frontend/dist/
+frontend/build/
+frontend/out/

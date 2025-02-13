@@ -1,0 +1,88 @@
+.LoginStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  background-color: #f4f4f4;
+  max-height: 100vh;
+}
+
+.LoginStyle img {
+  width: 6rem; /* Logo size */
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.LoginStyle form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.LoginStyle label {
+  font-size: 16px;
+  color: #6F4E37; /* Coffee color */
+  margin-bottom: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+.LoginStyle input, .LoginStyle select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.LoginStyle input:focus, .LoginStyle select:focus {
+  border-color: #6F4E37; /* Coffee color on focus */
+  outline: none;
+}
+
+.LoginStyle button {
+  background-color: #6F4E37;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.LoginStyle button:hover {
+  background-color: #5C3F2E; /* Darker coffee color */
+}
+
+.LoginStyle p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.LoginStyle a {
+  color: #6F4E37; /* Coffee color for link */
+  text-decoration: none;
+}
+
+.LoginStyle a:hover {
+  text-decoration: underline;
+}
+.flexer{
+  width: 100%;
+  display: flex;
+
+  gap: 1rem;
+  justify-content: space-between;
+}

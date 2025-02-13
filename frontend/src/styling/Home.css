@@ -1,0 +1,103 @@
+/* Main Section */
+.main-homepage {
+
+    padding: 30px 20px;
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  
+    
+  }
+  
+  .mainpage-sub img {
+    max-width:100%;
+    height: auto;
+    border-radius: 8px;
+  
+  }
+  
+  .mainpage-sub img:hover {
+    transform: scale(1.05);
+  }
+  
+  .mainpage-sub h1 {
+    color: #6f4e37;
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  .mainpage-sub p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  
+  /* Info Container (Simplified version of the card section) */
+  .maininfo-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  
+  .maininfo-item {
+   
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .maininfo-item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .maininfo-item h3 {
+    color: #6f4e37;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .maininfo-item p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .maininfo-item button {
+    background-color: transparent;
+    border: none;
+    color: #6f4e37;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .maininfo-item button:hover {
+    color: #5e462b;
+  }
+  
+  /* Text Expander Button */
+  button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #6f4e37;
+    border-radius: 5px;
+    color: #6f4e37;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button:hover {
+    /* background-color: #6f4e37; */
+    color: white;
+  }
+  

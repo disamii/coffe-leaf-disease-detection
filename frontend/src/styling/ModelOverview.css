@@ -1,0 +1,88 @@
+.model-overview-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .header-section {
+    /* background-color: #483C32; */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .process-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+  }
+  
+  .process-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 45%;
+  }
+  
+  .process-card ul {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .action-button {
+    background-color: #483C32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: #3a2f28;
+  }
+  
+  .metrics-section {
+    margin: 40px 0;
+  }
+  
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .metric-card {
+    background-color: #e6e6e6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .visuals-section .image-placeholder img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  
+  .cta-section {
+    margin-top: 40px;
+  }
+  
+  .cta-button {
+    background-color: #483C32;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .cta-button:hover {
+    background-color: #3a2f28;
+  }
+  
