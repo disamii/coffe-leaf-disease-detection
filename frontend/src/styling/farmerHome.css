@@ -1,0 +1,34 @@
+.cntr{
+  display: flex;
+width: 100%;
+margin-block: 1rem;
+}
+
+.imageandtext{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.image-container{
+height: 12rem;
+width: 12rem;
+}
+
+.image-container img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.imageandtext .text-container{
+  text-align: center;
+}
+
+.imageform{
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+}

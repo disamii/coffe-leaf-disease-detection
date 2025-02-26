@@ -1,0 +1,24 @@
+# Ignore virtual environments
+**/venv/
+**/.venv/
+**/env/
+*.keras
+
+
+# Ignore Python compiled files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Ignore environment files
+**/.env
+**/.env.local
+
+# Frontend - Node modules
+frontend/node_modules/
+
+# Frontend - Build files
+frontend/dist/
+frontend/build/
+frontend/out/
